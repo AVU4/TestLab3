@@ -1,0 +1,26 @@
+test/lab/PageObjects/ProfilePage.java
+ test.lab.PageObjects.ProfilePage
+test/lab/PageObjects/LoginPage.java
+ test.lab.PageObjects.LoginPage
+test/lab/PageObjects/RatingPage.java
+ test.lab.PageObjects.RatingPage
+test/lab/PageObjects/GamePage.java
+ test.lab.PageObjects.GamePage
+test/lab/PageObjects/ClanPage.java
+ test.lab.PageObjects.ClanPage
+test/lab/PageObjects/TournamentPage.java
+ test.lab.PageObjects.TournamentPage
+test/lab/PageObjects/MediaPage.java
+ test.lab.PageObjects.MediaPage
+test/lab/PageObjects/MainPage.java
+ test.lab.PageObjects.MainPage
+test/lab/BrowserConfigTest.java
+ test.lab.BrowserConfigTest
+test/lab/PageObjects/CommunityPage.java
+ test.lab.PageObjects.CommunityPage
+test/lab/UnauthorizedClientTests/OpenSectionsTest.java
+ test.lab.UnauthorizedClientTests.OpenSectionsTest
+test/lab/AuthorizationTest.java
+ test.lab.AuthorizationTest
+test/lab/UnauthorizedClientTests/SectionCommunityTests.java
+ test.lab.UnauthorizedClientTests.SectionCommunityTests
