@@ -1,11 +1,13 @@
 package test.lab;
 
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import test.lab.PageObjects.*;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.util.HashMap;
 import java.util.concurrent.TimeUnit;
 
 public class BrowserConfigTest {
