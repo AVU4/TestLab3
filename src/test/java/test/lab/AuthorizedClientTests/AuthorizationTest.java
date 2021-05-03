@@ -1,6 +1,7 @@
-package test.lab;
+package test.lab.AuthorizedClientTests;
 
 import org.junit.jupiter.api.*;
+import test.lab.BrowserConfigTest;
 
 public class AuthorizationTest extends BrowserConfigTest {
 

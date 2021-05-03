@@ -16,6 +16,15 @@ public class RatingPage {
     @FindBy(xpath = "//a[@class=\"nav-submenu_link\"]")
     private WebElement logo;
 
+    @FindBy(xpath = "//a[@class=\"rating-link\"]")
+    private WebElement ratingAchievements;
+
+    @FindBy(xpath = "//a[@class=\"rating-link rating-link__type-2\"]")
+    private WebElement ratingVehicles;
+
+    @FindBy(xpath = "//a[@class=\"sub-button\"]")
+    private WebElement сonnectionLink;
+
     private WebDriver driver;
 
     public RatingPage(WebDriver driver) {
@@ -31,6 +40,24 @@ public class RatingPage {
         WebDriverWait wait = new WebDriverWait(driver, 30);
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class=\"nav-submenu_link\"]")));
         logo.click();
+    }
+
+    public void clickRatingAchievements() {
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class=\"rating-link\"]")));
+        ratingAchievements.click();
+    }
+
+    public void clickRatingVehicle() {
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class=\"rating-link rating-link__type-2\"]")));
+        ratingVehicles.click();
+    }
+
+    public void moveToAnotherRating() {
+        WebDriverWait wait = new WebDriverWait(driver, 30);
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class=\"sub-button\"]")));
+        сonnectionLink.click();
     }
 
 }
