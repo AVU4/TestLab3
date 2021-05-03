@@ -4,8 +4,8 @@ test/lab/PageObjects/LoginPage.java
  test.lab.PageObjects.LoginPage
 test/lab/PageObjects/TournamentPage.java
  test.lab.PageObjects.TournamentPage
-test/lab/PageObjects/ClanPage.java
- test.lab.PageObjects.ClanPage
+test/lab/PageObjects/ProfilePage.java
+ test.lab.PageObjects.ProfilePage
 test/lab/PageObjects/RatingPage.java
  test.lab.PageObjects.RatingPage
 test/lab/PageObjects/CommunityPage.java
@@ -16,19 +16,23 @@ test/lab/PageObjects/MainPage.java
  test.lab.PageObjects.MainPage
 test/lab/UnauthorizedClientTests/SectionCommunityTests.java
  test.lab.UnauthorizedClientTests.SectionCommunityTests
-test/lab/PageObjects/ProfilePage.java
- test.lab.PageObjects.ProfilePage
+test/lab/AuthorizedClientTests/PersonalAreaTest.java
+ test.lab.AuthorizedClientTests.PersonalAreaTest
 test/lab/AuthorizedClientTests/AuthorizationTest.java
  test.lab.AuthorizedClientTests.AuthorizationTest
 test/lab/UnauthorizedClientTests/SectionRatingTest.java
  test.lab.UnauthorizedClientTests.SectionRatingTest
+test/lab/UnauthorizedClientTests/SectionClanTest.java
+ test.lab.UnauthorizedClientTests.SectionClanTest
+test/lab/AuthorizedClientTests/SectionClanTest.java
+ test.lab.AuthorizedClientTests.SectionClanTest
 test/lab/UnauthorizedClientTests/OpenSectionsTest.java
  test.lab.UnauthorizedClientTests.OpenSectionsTest
+test/lab/PageObjects/ClanPage.java
+ test.lab.PageObjects.ClanPage
 test/lab/BrowserConfigTest.java
  test.lab.BrowserConfigTest
 test/lab/UnauthorizedClientTests/SectionMediaTest.java
  test.lab.UnauthorizedClientTests.SectionMediaTest
 test/lab/AuthorizationConfig.java
  test.lab.AuthorizationConfig
-test/lab/AuthorizedClientTests/PersonalAreaTest.java
- test.lab.AuthorizedClientTests.PersonalAreaTest

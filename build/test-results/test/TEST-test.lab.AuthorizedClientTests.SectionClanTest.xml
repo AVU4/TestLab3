@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.lab.AuthorizedClientTests.SectionClanTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-05-03T21:08:21" hostname="avu-EasyNote-TJ75" time="5.32">
+  <properties/>
+  <testcase name="test()" classname="test.lab.AuthorizedClientTests.SectionClanTest" time="5.32"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 90.0.4430.93 (4df112c29cfe9a2c69b14195c0275faed4e997a7-refs/branch-heads/4430@{#1348}) on port 26218
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+мая 04, 2021 12:07:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

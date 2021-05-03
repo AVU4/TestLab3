@@ -18,6 +18,15 @@ public class ClanPage {
     @FindBy(xpath = "//a[@class=\"nav-submenu_link\"]")
     private WebElement logo;
 
+    @FindBy(xpath = "//a[@class=\"old-button\"]")
+    private WebElement findClan;
+
+    @FindBy(xpath = "//input[@class=\"clan-search_input js-clan-search\"]")
+    private WebElement inputFindClan;
+
+    @FindBy(xpath = "//input[@class=\"clan-search_btn\"]")
+    private WebElement buttonSearch;
+
     public ClanPage(WebDriver driver){
         PageFactory.initElements(driver, this);
         wait = new WebDriverWait(driver, 30);
@@ -30,6 +39,19 @@ public class ClanPage {
     public void clickLogo(){
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class=\"nav-submenu_link\"]")));
         logo.click();
+    }
+
+    public void clickFindClan() {
+        wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class=\"old-button\"]")));
+        findClan.click();
+    }
+
+    public void setInputFindClan(){
+        inputFindClan.sendKeys("As");
+    }
+
+    public void submit(){
+        buttonSearch.click();
     }
 
 }
