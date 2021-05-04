@@ -8,7 +8,7 @@ public class AuthorizationConfig extends BrowserConfigTest {
     public static void authorization() {
         mainPage.clickLogin();
         BrowserConfigTest.loginPage.inputLogin("lexa200004@mail.ru");
-        BrowserConfigTest.loginPage.inputPassword("AVU0707");
+        BrowserConfigTest.loginPage.inputPassword("AVU0707ovu");
         BrowserConfigTest.loginPage.clickSubmit();
     }
 }

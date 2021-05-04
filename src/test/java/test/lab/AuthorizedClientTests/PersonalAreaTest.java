@@ -47,6 +47,14 @@ public class PersonalAreaTest extends AuthorizationConfig {
     }
 
     @Test
+    public void testChangePassword(){
+        profilePage.clickPasswordEditorButton();
+        profilePage.changePassword("AVU0707avu");
+        profilePage.submitPassword();
+        profilePage.clickFinishChange();
+    }
+
+    @Test
     public void testBonusCode(){
         profilePage.entryMenu();
         profilePage.clickBonusCode();

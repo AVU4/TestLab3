@@ -18,8 +18,8 @@ test/lab/UnauthorizedClientTests/SectionCommunityTests.java
  test.lab.UnauthorizedClientTests.SectionCommunityTests
 test/lab/AuthorizedClientTests/PersonalAreaTest.java
  test.lab.AuthorizedClientTests.PersonalAreaTest
-test/lab/AuthorizedClientTests/AuthorizationTest.java
- test.lab.AuthorizedClientTests.AuthorizationTest
+test/lab/AuthorizationConfig.java
+ test.lab.AuthorizationConfig
 test/lab/UnauthorizedClientTests/SectionRatingTest.java
  test.lab.UnauthorizedClientTests.SectionRatingTest
 test/lab/UnauthorizedClientTests/SectionClanTest.java
@@ -34,5 +34,5 @@ test/lab/BrowserConfigTest.java
  test.lab.BrowserConfigTest
 test/lab/UnauthorizedClientTests/SectionMediaTest.java
  test.lab.UnauthorizedClientTests.SectionMediaTest
-test/lab/AuthorizationConfig.java
- test.lab.AuthorizationConfig
+test/lab/UnauthorizedClientTests/AuthorizationTest.java
+ test.lab.UnauthorizedClientTests.AuthorizationTest

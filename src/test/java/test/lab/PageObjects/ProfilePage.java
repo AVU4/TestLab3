@@ -51,6 +51,21 @@ public class ProfilePage {
     @FindBy(xpath = "//span[contains(text(), \"Активировать код Wargaming\")]")
     private WebElement linkToBonusCode;
 
+    @FindBy(xpath = "//a[@class=\"personal-info-list_ico personal-info-list_ico__edit\"]")
+    private WebElement passwordEditorButton;
+
+    @FindBy(xpath = "//input[@data-at-role=\"input-password\"]")
+    private WebElement passwordInput;
+
+    @FindBy(xpath = "//input[@data-at-role=\"input-password-repeat\"]")
+    private WebElement passwordRepeatInput;
+
+    @FindBy(xpath = "//button[contains(text(), \"Изменить\")]")
+    private WebElement passwordSubmit;
+
+    @FindBy(xpath = "//button[contains(text(), \"Закрыть\")]")
+    private WebElement finishChanges;
+
     public ProfilePage(WebDriver driver) {
         PageFactory.initElements(driver, this);
         this.driver = driver;
@@ -122,6 +137,23 @@ public class ProfilePage {
 
     public void clickBonusCode() {
         linkToBonusCode.click();
+    }
+
+    public void clickPasswordEditorButton(){
+        passwordEditorButton.click();
+    }
+
+    public void changePassword(String password) {
+        passwordInput.sendKeys(password);
+        passwordRepeatInput.sendKeys(password);
+    }
+
+    public void submitPassword() {
+        passwordSubmit.click();
+    }
+
+    public void clickFinishChange(){
+        finishChanges.click();
     }
 
 }
